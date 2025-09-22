@@ -15,6 +15,8 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
           logoSrc="/images/logo.svg"
+          logoWidth={100}
+          logoHeight={50}
           navItems={[
             { name: "Hero", id: "hero" },
             { name: "About", id: "about" },
