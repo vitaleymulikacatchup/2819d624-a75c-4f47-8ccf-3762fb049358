@@ -1,6 +1,6 @@
 "use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
+import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import ImageFAQ from '@/components/sections/layouts/faq/ImageFAQ';
@@ -15,7 +15,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
           logoSrc="/images/logo.svg"
-          logoAlt="Memecoin Fiesta"
           navItems={[
             { name: "Hero", id: "hero" },
             { name: "About", id: "about" },
